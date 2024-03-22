@@ -124,3 +124,62 @@
 .cards > div{
     margin-right: 20px;
 }
+
+footer{
+    background-color: #253237;
+    height: 500px;
+}
+
+.geral{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #9DB4C0;
+    margin-top: 50px;
+}
+
+.location{
+    display: flex;
+    color: #9DB4C0;
+    margin-top: 20px;
+}
+
+.location > p{
+    margin-left: 15px;
+}
+
+.telefone{
+    display: flex;
+    color: #9DB4C0;
+    margin-top: 20px;
+}
+
+.telefone > p{
+    margin-left: 15px;
+}
+
+.email{
+    display: flex;
+    color: #9DB4C0;
+    margin-top: 20px;
+}
+
+.email > p{
+    margin-left: 15px;
+}
+
+.titulo2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #9DB4C0;
+    margin-top: 50px;
+}
+
+.sociais > img{
+    margin-right: 10px;
+    margin-top: 15px;
+}
