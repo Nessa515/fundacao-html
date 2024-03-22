@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.cabecalho > ul{
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+.cabecalho > ul > li{
+    display: inline;
+    margin-right: 80px;
+}
+
+.cabecalho > ul > li > a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.cabecalho > div{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.imagem1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.conteudo1 > h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    color: #333333;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.conteudo1 > p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    width: 997px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.conteudo1 > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.conteudo1 > div > hr{
+    width: 263px;
+    height: 5px;
+    margin-right: 50px;
+    background-color: rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+}
+
+.conteudo1 > div > .um{
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.posts > div{
+    margin-right: 20px;
+}
+
+.posts > div > h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.posts > div > p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    width: 387px;
+}
+
+.posts > div > span{
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+
+.titulo > h3{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 33px;
+    color: #333333;
+    margin-top: 100px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 1300px;
+}
+
+.cards > div{
+    margin-right: 20px;
+}
