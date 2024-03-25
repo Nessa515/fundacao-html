@@ -30,7 +30,7 @@
 
 .cabecalho > div{
     margin-top: 20px;
-    margin-left: 350px;
+    margin-left: 250px;
 }
 
 .imagem1{
@@ -182,4 +182,70 @@ footer{
 .sociais > img{
     margin-right: 10px;
     margin-top: 15px;
+}
+
+.parte2 > div > p{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #9DB4C0;
+    margin-top: 50px;
+}
+
+.logos > img{
+    margin-right: 50px;
+}
+
+.pref{
+    margin-top: 40px;
+} 
+
+/* ---------- Post ------------- */
+
+.post1 > h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    color: #333333;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.post1 > p{
+    font-family: "Montserrat";
+    font-size: 24px;
+    text-align: justify;
+    color: rgba(51, 51, 51, 0.7);
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 1200px;
+}
+
+.post1 .imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.post1 .imgs > img{
+margin-right: 30px;
+}
+
+.post2 > p{
+    font-family: "Montserrat";
+    font-size: 24px;
+    text-align: justify;
+    color: rgba(51, 51, 51, 0.7);
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 1200px;
+}
+
+.post2 .imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgs > img{
+    margin-bottom: 20px;
 }
