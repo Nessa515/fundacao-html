@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor-principal: #333333;
+    --cor-secundaria: #9DB4C0;
+    --font-principal: "Montserrat", sans-serif;
+    --font-secundaria: "Josefin Sans", sans-serif;
+    --font-terciaria: "Quicksand";
+}
+
 .cabecalho{
     background-color: #F1F1F1;
     display: flex;
@@ -24,7 +32,7 @@
 
 .cabecalho > ul > li > a {
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
     color: black;
 }
@@ -41,17 +49,17 @@
 }
 
 .conteudo1 > h1{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 22px;
-    color: #333333;
+    color: var(--cor-principal);
     margin-top: 20px;
     margin-left: 350px;
 }
 
 .conteudo1 > p{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
-    color: #333333;
+    color: var(--cor-principal);
     width: 997px;
     margin-top: 20px;
     margin-left: 350px;
@@ -88,29 +96,29 @@
 }
 
 .posts > div > h2{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 18px;
-    color: #333333;
+    color: var(--cor-principal);
 }
 
 .posts > div > p{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
-    color: #333333;
+    color: var(--cor-principal);
     width: 387px;
 }
 
 .posts > div > span{
-    font-family: "Montserrat", sans-serif;
-    color: #333333;
+    font-family: var(--font-principal);
+    color: var(--cor-principal);
     font-size: 14px;
 }
 
 .titulo > h3{
     text-align: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 33px;
-    color: #333333;
+    color: var(--cor-principal);
     margin-top: 100px;
 }
 
@@ -137,15 +145,15 @@ footer{
 }
 
 .titulo1{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 18px;
-    color: #9DB4C0;
+    color: var(--cor-secundaria);
     margin-top: 50px;
 }
 
 .location{
     display: flex;
-    color: #9DB4C0;
+    color: var(--cor-secundaria);
     margin-top: 20px;
 }
 
@@ -155,7 +163,7 @@ footer{
 
 .telefone{
     display: flex;
-    color: #9DB4C0;
+    color: var(--cor-secundaria);
     margin-top: 20px;
 }
 
@@ -165,7 +173,7 @@ footer{
 
 .email{
     display: flex;
-    color: #9DB4C0;
+    color: var(--cor-secundaria);
     margin-top: 20px;
 }
 
@@ -174,9 +182,9 @@ footer{
 }
 
 .titulo2{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 18px;
-    color: #9DB4C0;
+    color: var(--cor-secundaria);
     margin-top: 50px;
 }
 
@@ -186,9 +194,9 @@ footer{
 }
 
 .parte2 > div > p{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 18px;
-    color: #9DB4C0;
+    color: var(--cor-secundaria);
     margin-top: 50px;
 }
 
@@ -203,7 +211,7 @@ footer{
 /* ---------- Post ------------- */
 
 .post1 > h1{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 40px;
     color: #333333;
     margin-left: 150px;
@@ -260,7 +268,7 @@ margin-right: 30px;
 header > h1{
     font-family: "Josefin Sans";
     font-size: 22px;
-    color: #333333;
+    color: var(--cor-principal);
     margin-top: 50px;
     margin-left: 360px;
 }
@@ -282,7 +290,7 @@ header > h1{
     border-radius: 0px 5px 5px 0px;
     width: 203px;
     height: 37px;
-    background-color: #333333;
+    background-color: var(--cor-principal);
     margin-top: 80px;
 }
 
@@ -299,7 +307,7 @@ header > h1{
 }
 
 .resultado > p{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 12px;
     color: #000000;
     margin-bottom: 5px;
@@ -321,24 +329,24 @@ header > h1{
 }
 
 .public .legenda{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 12px;
     color: #000000;
     margin-left: 20px;
 }
 
 .public > div > h1{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 18px;
-    color: #333333;
+    color: var(--cor-principal);
     margin-left: 20px;
     margin-top: 30px;
 }
 
 .public .conteudo{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
-    color: #333333;
+    color: var(--cor-principal);
     margin-left: 20px;
     margin-top: 30px;
     width: 894px;
@@ -347,9 +355,9 @@ header > h1{
 }
 
 .public .data{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
-    color: #333333;
+    color: var(--cor-principal);
     margin-left: 20px;
 }
 
@@ -367,7 +375,7 @@ header > h1{
 
 .paginacao .b > p{
     color: #FFFFFF;
-    font-family: "Quicksand";
+    font-family: var(--font-terciaria);
     font-size: 14px;
     text-align: center;
     padding-top: 15px;
@@ -383,7 +391,7 @@ header > h1{
 
 .paginacao .w > p{
     color: #000000;
-    font-family: "Quicksand";
+    font-family: var(--font-terciaria);
     font-size: 14px;
     text-align: center;
     padding-top: 15px;
